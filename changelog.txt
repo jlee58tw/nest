@@ -1,0 +1,62 @@
+== Changelog Jerrynest ==
+= 1.0 - Aug 07 2017
+* Remove custom setting
+* Fixed the theme color and frontpage layout
+
+== Changelog Writers ==
+= 1.6 - May 24 2017 =
+* User can now choose to hide the default featured image
+
+= 1.2 - May 19 2017 =
+* Optimized pagespeed
+* Improved preview
+* Fixed minor issues
+
+= 1.0 - Apr 11 2017 =
+* Added a feature so the user can change all colors on mobile navigation
+* Added a feature so the user can change all colors on dropdown navigation
+* Added a feature so the user can change all colors on desktop navigation
+* Header is now responsible without position absolute and locked heights, it is now a fluent header
+* Redesigned Header design
+* Header image now only appears on front page
+* Header widgets now only appear on front page
+* Front page header text is no longer a link 
+* Rearranged customize nav to make it easier to use
+* Redesigned mobile nav
+* Redesigned desktop subpage nav
+* Redesigned sidebar
+* Redesigned sidebar widgets
+* Redesigned blog page
+* Redesigned blog post feed
+* Redesigned pages
+* Redesigned comments
+* Redesigned search page
+* Users can now upload an author profile picture that will be displayed on psots
+* User can now change color on logo individually on frontpage / subpage
+* User can now change navigation link color on logo individually on frontpage / subpage
+* Front page hero/header headline text is now custom and not the page title
+* Front page hero/header tagline text is now custom and not the page tagline
+* Added Bottom Widgets
+* Added a Feature where user can choose background color on footer widgets
+* Added a Feature where user can choose footer widget title colors
+* Added a Feature where user can choose footer copyright section background color
+* Added a Feature where user can choose footer copyright section text color
+* Added a Feature where user can choose sidebar background color
+* Added a Feature where user can choose sidebar headline text color
+* Added a Feature where user can choose sidebar link text color
+* Added a Feature where user can choose sidebar link border color
+* Added a Feature where user can choose navigation background color
+* Added a Feature where user can choose navigation link color
+* Added a Feature where user can choose navigation logo color
+* Added a Feature where user can choose post & page headline color
+* Added a Feature where user can choose post & page content color
+* Added a Feature where user can choose post & page author byline color
+* Added Custom pages
+* Added New header images
+* Added New top footer section
+* Added Footer widgets and content (Links, text, img & much more)
+* Added Footer widgets (Footer widget left, middle and right)
+* Added New Templates
+* Added Full width template
+* Added More custom header images
+* Added Text rendering, antialiased, optimizeLegibility 
