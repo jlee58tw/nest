@@ -18,6 +18,15 @@
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 
   <?php wp_head(); ?>
+  <!--pagelevel ad-->
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({
+      google_ad_client: "", //your google_ad_client id
+      enable_page_level_ads: true
+    });
+  </script>
+
 </head>
 
 <body <?php body_class(); ?>>

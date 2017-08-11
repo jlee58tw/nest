@@ -28,7 +28,9 @@
 			</div>
 
 			<div class="col-md-7 col-xs-12">
+				
 				<div class="blog-feed-contant">
+					
 					<header class="entry-header">	
 						<span class="screen-reader-text"><?php the_title();?></span>
 						<?php if ( is_single() ) : ?>

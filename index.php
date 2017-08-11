@@ -36,7 +36,7 @@ get_header(); ?>
 			<?php endwhile; ?>
 				<nav class="navigation posts-navigation" role="navigation">
 					<h2 class="screen-reader-text">Posts navigation</h2>
-						<div class="row nav-numbers">
+						<div class="nav-numbers">
 							<?php if ( $wp_query->max_num_pages > 1 ) : ?>
 								<?php if (function_exists("pagination")) {
 									pagination($custom_query->max_num_pages);

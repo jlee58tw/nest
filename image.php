@@ -12,7 +12,7 @@ get_header();
  
 <div class="container">
     <div class="row">
-        <div class="col-md-2"></div>
+
         <div id="primary" class="col-md-8 content-area image-attachment">
             <div id="content" class="site-content" role="main">
  
