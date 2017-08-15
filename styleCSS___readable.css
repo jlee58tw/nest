@@ -91,7 +91,8 @@ code {
 blockquote {
 	border-left: 5px solid #1e73be;
     background: #F5f5f5;
-    margin-left: .5em
+    margin-left: .5em;
+    font-size: 17px;
 }
 
 table {
@@ -308,11 +309,6 @@ section.no-results.not-found {
     background-position: center
 }
 
-
-.alignnone {
-    margin: 5px 20px 20px 0
-}
-
 .aligncenter,
 div.aligncenter {
     display: block;
@@ -321,33 +317,16 @@ div.aligncenter {
 
 .alignright {
     float: right;
-    margin: 5px 0 20px 20px
 }
 
 .alignleft {
     float: left;
-    margin: 5px 20px 20px 0
-}
-
-a img.alignright {
-    float: right;
-    margin: 5px 0 20px 20px
-}
-
-a img.alignleft,
-a img.alignnone {
-    margin: 5px 20px 20px 0
-}
-
-a img.alignleft {
-    float: left
 }
 
 a img.aligncenter {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 20px
 }
 
 .size-auto,
@@ -1775,7 +1754,7 @@ p.comment-form-author {
 
 
 @media (max-width:900px) {
-    body {
+    body, blockquote{
         font-size: 16px
     }
     h1 {
@@ -2004,6 +1983,9 @@ p.comment-form-author {
     }
     .post-content:first-of-type {
         margin: 0 0 20px;
+    }
+    #disqus_thread{
+        padding: 20px;
     }
 }
 
