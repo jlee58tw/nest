@@ -14,7 +14,7 @@
 	<a href="<?php the_permalink(); ?>" rel="bookmark">
 	<?php nest_featured_image_disaplay(); ?>
 	</a>
-	<header class="entry-header">
+	<header class="entry-header ">
 		<?php the_title( sprintf( '<h1 class="entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h1>' ); ?>
 
 		<?php if ( 'post' == get_post_type() ) : ?>

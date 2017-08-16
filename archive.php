@@ -10,7 +10,7 @@
 
 get_header(); ?>
 <div class="container">
-	<div class="row">
+	<div class="row nav-padding">
 		
 
 		<?php if ( have_posts() ) : ?>

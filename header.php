@@ -57,14 +57,8 @@
             </a>
           </div> 
 
-          <?php if ( !is_front_page() ) { 
-                  if ( has_nav_menu( 'primary' ) ) {
-                    nest_header_menu();
-                  }
-                } else {
-                  echo "<div id='index_nav'>";
-                  nest_header_menu();
-                  echo "</div>";
+          <?php if ( has_nav_menu( 'primary' ) ) {
+              nest_header_menu();
           } ?>
           </div><!--#container-->
         </nav>

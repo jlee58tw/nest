@@ -14,7 +14,7 @@
 get_header(); ?>
 
 		<div class="container">
-            <div class="row">
+            <div class="row nav-padding">
 				<div id="primary" class="col-md-8 content-area">
 					<main id="main" class="site-main" role="main">
 

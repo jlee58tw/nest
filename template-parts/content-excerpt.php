@@ -9,7 +9,7 @@
 ?>
 <article id="post-<?php the_ID(); ?>"  class="post-content">
 
-	<div class="row row-eq-height post-feed-wrapper">
+	<div class="row row-eq-height post-feed-wrapper ">
 			<div class="col-md-5 col-xs-12 post-thumbnail-wrap">
 				<?php
 				if ( is_sticky() && is_home() && ! is_paged() ) {
