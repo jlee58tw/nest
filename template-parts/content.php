@@ -19,9 +19,6 @@
 		<span class="screen-reader-text"><?php the_title();?></span>
 		<?php if (get_theme_mod('blog_post_author_image') ) : ?>
 		<div class="subpage-author-image" style="background-image: url('<?php echo esc_url(get_theme_mod('blog_post_author_image')) ?>')"></div>
-
-				
-
 	<?php else : ?>
 
 <?php endif; ?>

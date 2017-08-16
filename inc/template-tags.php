@@ -127,34 +127,17 @@ if ( ! function_exists( 'nest_entry_footer' ) ) :
  * Prints HTML with meta information for the categories, tags and comments.
  */
 function nest_entry_footer() {
-	if(is_single())
-		echo '<hr>';
 	
 	if(!is_home() && !is_search() && !is_archive()){
 
 		if ( 'post' == get_post_type() ) {
-			/* translators: used between list items, there is a space after the comma */
-			$categories_list = get_the_category_list( esc_html__( ' ', 'nest' ) );
-			echo '<div class="row">';
-			if ( $categories_list && nest_categorized_blog() ) {
-				printf( '<div class="col-md-3 cattegories"><span class="cat-links">
-		 ' . '%1$s</span></div>', $categories_list ); // WPCS: XSS OK.
-			}
-			else{
-				echo '<div class="col-md-3 cattegories"><span class="cat-links"></span></div>'; 
-			}
-
 
 			$tags_list = get_the_tag_list( '', esc_html__( ' ', 'nest' ) );
 			if ( $tags_list ) {
-					printf( '<div class="col-md-9 cattegories"><span class="tags-links">' . esc_html__( ' %1$s', 'nest' ) . '</span></div>', $tags_list ); // WPCS: XSS OK.
+					printf( '<div class="cattegories"><span class="tags-links">' . esc_html__( ' %1$s', 'nest' ) . '</span></div>', $tags_list ); // WPCS: XSS OK.
 				}
-				
-				echo '</div>';
 			}
 		}
-		edit_post_link( esc_html__( 'Edit This Post', 'nest' ), '<span>', '</span>' );
-		
 	}
 endif;
 
