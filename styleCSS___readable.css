@@ -14,8 +14,8 @@ Text Domain: nest
 
 /*
 color
-blue       #1e73be, #318dde
-gray       #f5f5f5
+blue       #1e73be, #318dde, #d7f4f9(select)
+gray       #f5f5f5, #555(font)
 */
 
 /* -------------------------------------------------------------------------------- */
@@ -29,9 +29,14 @@ body, input, select, textarea{
     -webkit-font-smoothing: antialiased;
     letter-spacing: .5px;
     line-height: 1.7em;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 400;
     text-align: left;
+}
+
+h1, h2, h3, h4, h5, h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 img{
@@ -122,6 +127,18 @@ embed, iframe, object{
 .nav-padding{
     padding-top: 100px;
 }
+
+::selection{
+    background: #1e73be;
+    color: white;
+}
+::-moz-selection {
+    background: #1e73be;
+    color: white;
+}
+
+
+
 
 /*button*/
 
@@ -857,9 +874,11 @@ img.size-full {
     color: #727272;
     font-size: 16px;
     padding: 5px;
+    margin-bottom: 10px;
     background-color: #f5f5f5;
     border-radius: 3px;
-    line-height: 36px;
+    line-height: 20px;
+    display: inline-block;
 }
 
 .cat-links a:hover{
@@ -873,10 +892,7 @@ img.size-full {
 .tags-links a:hover {
     color: #1e73be;
     font-size: 16px;
-    padding: 5px;
     background-color: #fff;
-    border-radius: 3px;
-    line-height: 36px;
 }
 
 .cattegories{
@@ -1680,6 +1696,11 @@ p.comment-form-author {
     margin-bottom: 0;
 }
 
+@media (min-width:1200px) {
+    .container {
+        width: 1200px;
+    }
+}
 
 @media (min-width:768px) {
 
@@ -1717,7 +1738,6 @@ p.comment-form-author {
         border-radius: 0
     }
 
-
 }
 
 
@@ -1749,10 +1769,14 @@ p.comment-form-author {
         padding: 0;
         border-radius: 5px 5px 0 0
     }
+    body, input, select, textarea{
+        font-size: 17px;
+    }
 }
 
 
 @media (max-width:900px) {
+    
     body, blockquote{
         font-size: 16px
     }
